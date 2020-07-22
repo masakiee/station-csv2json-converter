@@ -1,0 +1,35 @@
+{
+  "name": "station-csv2json-converter",
+  "version": "0.0.1",
+  "description": "Convert CSV file from ekidata.jp into JSON format",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "eslint",
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Masaki Inoue",
+    "email": "masaki.yagui@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masaki-inoue/station-csv2json-converter.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.24",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
